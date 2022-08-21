@@ -10,7 +10,7 @@ export default function Home() {
       .get(url)
       .then((data) => {
         console.log(data);
-        setResults(data.data);
+        setResults(data.data.data);
       })
       .catch((err) => {
         alert("Something went wrong");
