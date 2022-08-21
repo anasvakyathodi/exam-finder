@@ -29,6 +29,7 @@ export default function Home() {
             <a
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noreferrer"
               href="https://linktr.ee/anas_vakyathodi"
             >
               Check Me
@@ -53,8 +54,9 @@ export default function Home() {
             className="border p-3"
             style={{ maxHeight: "80vh", overflow: "scroll" }}
           >
-            {results.map(({ date, stream, link }) => (
+            {results.map(({ date, stream, link }, index) => (
               <div
+                key={index}
                 className="alert alert-info"
                 role="alert"
                 style={{ cursor: "pointer" }}
