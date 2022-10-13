@@ -1,6 +1,6 @@
 # Exam Finder
 
-This is a Reverse Engineered website which makes students of MANUU easy to check and download their exam results.
+This is a Reverse Engineered website which makes students of MANUU easy to check and download their exam results. It gives individual as well group results.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
